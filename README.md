@@ -1,8 +1,6 @@
 #  Torrent Tracking
 This project simulates the behavior of the Bit Torrent Protocol.  There are torrent trackers, peers, files, and sources.
 
-<hr/>
-
 
 ##  File
 This program looks at the size of a file and splits it up into an array to later be used by the bit torrent protocol.  For each MegaByte of data (1MB) it is split into 20 chucks / byte packets.
@@ -21,8 +19,6 @@ Examples
 -  buildTorrentPacketArray(6)   ---->  [1,1,1,1,1,1]
 -  buildTorrentPacketArray(200) ---->  [1,1,1,1,1,1,1,1, ...you get it]
 
-
-<hr/>
 
 
 ##  Tracker
@@ -48,10 +44,6 @@ calculates the average number from the percent array and return the number.
 ####  function update()
 loops through all of the seeds and picks a randomly number between zero and one.  If this number is larger than the current percent, replace it.  If the number is less than 0.03, remove the seed by assigning nulls to the two arrays.
 
-
-
-
-<hr/>
 
 
 ##  User (also called a Client)
