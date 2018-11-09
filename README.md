@@ -2,6 +2,8 @@
 This project simulates the behavior of the Bit Torrent Protocol.  There are torrent trackers, peers, files, and sources.
 
 <hr/>
+
+
 ##  File
 This program looks at the size of a file and splits it up into an array to later be used by the bit torrent protocol.  For each MegaByte of data (1MB) it is split into 20 chucks / byte packets.
 
@@ -21,6 +23,8 @@ Examples
 
 
 <hr/>
+
+
 ##  Tracker
 This program looks to update, add or subtract seeds, from the tracker file.  There are many utility functions in the program to update the state of the tracker.
 
@@ -48,6 +52,8 @@ loops through all of the seeds and picks a randomly number between zero and one.
 
 
 <hr/>
+
+
 ##  User (also called a Client)
 This program mimics the behavior of a user attempting to download a file utilizing the bit torrent protocol.
 
